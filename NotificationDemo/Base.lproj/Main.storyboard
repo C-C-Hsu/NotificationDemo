@@ -21,7 +21,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81a-94-YZJ">
                                 <state key="normal" title="發送通知"/>
                                 <connections>
-                                    <action selector="showNotification:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sDQ-dS-Yjx"/>
+                                    <action selector="showNotification:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tC0-uM-Pzr"/>
                                 </connections>
                             </button>
                         </subviews>
