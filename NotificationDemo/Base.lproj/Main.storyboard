@@ -20,6 +20,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81a-94-YZJ">
                                 <state key="normal" title="發送通知"/>
+                                <connections>
+                                    <action selector="showNotification:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sDQ-dS-Yjx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
