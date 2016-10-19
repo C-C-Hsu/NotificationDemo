@@ -22,6 +22,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let nc = NotificationCenter.default
+        
+        nc.addObserver(forName: myNotification, object: nil, queue: nil, using: catchNotification)
     }
 
     override func didReceiveMemoryWarning() {
