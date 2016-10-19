@@ -32,6 +32,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func catchNotification(notification: Notification) -> Void {
+        
+        guard let userInfo = notification.userInfo,
+            let message = userInfo["message"] as? String
+            else {
+            return
+        }
+        
+        let alert = UIAlertController(title: "活動通知!", message:"\(message)", preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title: "我知道了", style: UIAlertActionStyle.default, handler: nil))
+        
+        self.present(alert, animated: true, completion: nil)
+    }
 }
 
